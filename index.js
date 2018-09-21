@@ -58,5 +58,4 @@ var sum = drivers.reduce( function (accu, element){
   return accu + element.revenue} , 0);
 
  return sum/a;
-
 }
