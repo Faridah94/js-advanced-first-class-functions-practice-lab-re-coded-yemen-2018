@@ -51,4 +51,4 @@ var sum = drivers.reduce( function (accu, element){
 
 }
 
-
+let count = array.length;
