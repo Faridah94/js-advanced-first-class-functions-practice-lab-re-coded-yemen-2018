@@ -44,8 +44,8 @@ function driversByRevenue(drivers){
 }
 
 function totalRevenue(drivers){
-var sum = drivers.reduce(function (accumulator, currentValue) {
-  return accumulator + currentValue.revenue;
+var sum = drivers.reduce(function (accumulator, element) {
+  return accumulator + element.revenue;
 }, 0);
 
 
