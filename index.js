@@ -51,4 +51,12 @@ var sum = drivers.reduce( function (accu, element){
 
 }
 
-let count = array.length;
+function averageRevenue(drivers){
+let a = drivers.length;
+
+var sum = drivers.reduce( function (accu, element){
+  return accu + element.revenue} , 0);
+
+ return sum;
+
+}
